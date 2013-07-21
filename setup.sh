@@ -41,3 +41,9 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+export EMAIL={EMAIL}:templar996@gmail.com
+export USERNAME={USERNAME}:vh4x
+git config --global user.name $USERNAME
+git config --global user.email $EMAIL
+
+
