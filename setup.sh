@@ -46,4 +46,6 @@ export USERNAME={USERNAME}:vh4x
 git config --global user.name $USERNAME
 git config --global user.email $EMAIL
 
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
 
